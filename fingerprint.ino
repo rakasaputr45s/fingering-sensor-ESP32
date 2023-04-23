@@ -1,11 +1,6 @@
 #include <Adafruit_Fingerprint.h>
 
-
-#if (defined(__AVR__) || defined(ESP8266)) && !defined(__AVR_ATmega2560__)
-SoftwareSerial mySerial(2, 3);
-#else
 #define mySerial Serial2
-#endif
 
 
 Adafruit_Fingerprint finger = Adafruit_Fingerprint(&mySerial);
