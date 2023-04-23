@@ -1,0 +1,6 @@
+{
+    "sketch": "fingerprint.ino",
+    "port": "COM87",
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328"
+}
